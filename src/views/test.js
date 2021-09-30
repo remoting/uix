@@ -1,5 +1,5 @@
  export default {
-    template:"<div>{{t}}</div>",
+    template:"<div>{{t}}<el-button >ss</el-button></div>",
     name: 'test',
     data() {
         return {

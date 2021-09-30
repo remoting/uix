@@ -19,9 +19,12 @@
   "homepage": "https://github.com/remoting/uix#readme",
   "dependencies": {
     "koa": "^2.13.3",
+    "koa-compress": "^5.1.0",
+    "koa-router": "^10.1.1",
     "koa-static": "^5.0.0"
   },
   "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.19",
     "nodemon": "^2.0.13"
   }
 }

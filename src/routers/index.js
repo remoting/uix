@@ -4,7 +4,7 @@ import Auth from "./auth.js"
 const Home = () => import("../views/home.vue");
 const Login = () => import("../views/login.vue");
 const NotFound = () => import("../views/404.vue");
-const Test = () => import("../views/test.js");
+const Test = () => import("../pages/page1.vue");
 
 const routes = [
   /*
