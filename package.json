@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "cd example && nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/remoting/uix/issues"
   },
-  "homepage": "https://github.com/remoting/uix#readme"
+  "homepage": "https://github.com/remoting/uix#readme",
+  "dependencies": {
+    "koa": "^2.13.3",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
